@@ -70,11 +70,3 @@ jupyter nbconvert --to notebook --execute 02_QuestionSolutions.ipynb \
 | Q3 | Bias² and variance over 30 resampled training sets, effect of tree depth, final comparison | `que3_results/` |
 
 ---
-
-## Main results
-
-| Model | Clean test acc. | Masked test acc. | Bias² | Variance |
-|---|---|---|---|---|
-| Single tree (depth None, leaf 1) | 46.25% | 46.25% | 0.410 | 0.667 |
-| Bagging (B = 200) | 88.75% | 76.25% | 0.513 | 0.022 |
-| SAMME (depth 4, 100 rounds) | 43.75% | 53.75% | 0.891 | 0.020 |
