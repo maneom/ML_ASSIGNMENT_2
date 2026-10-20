@@ -57,7 +57,6 @@ jupyter nbconvert --to notebook --execute 02_QuestionSolutions.ipynb \
 - The Olivetti Faces dataset is downloaded automatically by scikit-learn on the first run, so internet is needed once.
 - The saved split `person_data.npz` is used directly. You do **not** need to run `01_Dataset_split.ipynb` again. It is included only to show how the split was made.
 - All random seeds come from the roll number: **seed = 26005**.
-- The full run takes about `[X]` hours on `[your CPU / RAM]`. Most of the time is spent on Q3.
 
 ---
 
